@@ -1,0 +1,162 @@
+@media (max-width: 960px) {
+
+    .inspires_card_box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products_card_box {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
+        gap: 25px;
+        padding-top: 24px;
+    }
+
+    .products_text_card_box.card_box_top {
+        padding: 24px 0 15px 0;
+    }
+
+    .meaningful_gallery {
+        display: grid;
+        padding-top: 80px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .header_text_box_start.double_text {
+        display: none;
+    }
+
+    .header_text_box_end.double_text {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0 25px 0;
+    }
+
+    .second .shelf {
+        padding: 140px 0;
+    }
+
+    .inspires .inspires_title_box {
+        gap: 5px;
+    }
+
+    .second .shelf_title {
+        font-size: 25px;
+    }
+
+    .inspires .inspires_title {
+        font-size: 25px;
+    }
+
+    .second .shelf_text {
+        font-size: 13px;
+    }
+
+    .inspires .inspires_text {
+        font-size: 13px;
+    }
+
+    .second .shelf_link {
+        font-size: 10px;
+    }
+
+    .inspires_link {
+        font-size: 10px;
+    }
+
+    .products_card_box {
+        display: grid;
+        grid-template-columns: repeat(1, 70%);
+        justify-content: center;
+        gap: 25px;
+        padding-top: 24px;
+    }
+
+    .meaningful_gallery {
+        display: grid;
+        padding-top: 80px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .inspires_card_box .inspires_card_text_box {
+        padding-top: 24px;
+        gap: 15px;
+    }
+
+    .inspires_card_box .inspires_card_text_box .inspires_card_title {
+        font-size: 25px;
+    }
+
+    .products .products_title {
+        font-size: 25px;
+    }
+
+    .products .products_text {
+        font-size: 13px;
+    }
+
+    .fiveth .office_title {
+        font-size: 25px;
+    }
+
+    .fiveth .office_text {
+        font-size: 13px;
+    }
+
+    .fiveth .office {
+        padding: 140px 0;
+    }
+
+    .way {
+        padding-top: 85px;
+    }
+
+    .way .way_title {
+        font-size: 25px;
+    }
+
+    .way .way_text {
+        font-size: 13px;
+    }
+
+    .meaningful .meaningful_title {
+        font-size: 25px;
+    }
+
+    .meaningful .meaningful_text {
+        font-size: 13px;
+    }
+
+    .meaningful_bottom_text {
+        padding-top: 90px;
+        gap: 22px;
+    }
+
+    .footer {
+        gap: 5px;
+        padding: 100px 0;
+    }
+
+    .footer .footer_title {
+        font-size: 25px;
+    }
+
+    .footer .footer_text {
+        font-size: 13px;
+    }
+
+    .footer_icon {
+        width: 28px;
+    }
+}

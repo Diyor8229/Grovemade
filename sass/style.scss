@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@500&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 25px 0;
+
+    .double_text {
+        display: flex;
+    }
+
+    .header_text_box_start {
+        gap: 24px;
+    }
+
+    .header_link {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+.second {
+    background: url(../image/bg_two.png) no-repeat center;
+    background-size: cover;
+
+    .shelf {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        color: #FFFFFF;
+        align-items: center;
+        padding: 280px 0;
+    }
+
+    .shelf_title_box {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .shelf_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 46px;
+    }
+
+    .shelf_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.8px;
+    }
+
+    .shelf_link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+}
+
+.inspires {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    color: #000000;
+    align-items: center;
+    padding: 80px 0;
+
+
+    .inspires_title_box {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .inspires_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    .inspires_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+    .inspires_link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        text-decoration: none;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+.inspires_card_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+
+
+    .inspires_card_text_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 48px;
+        gap: 23px;
+
+        .inspires_card_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        .inspires_card_link {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #000000;
+    align-items: center;
+    padding-top: 80px;
+
+    .products_title_box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .products_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .products_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+    .products_link {
+        font-size: 70px;
+        font-weight: 500;
+    }
+}
+
+.products_card_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 24px;
+
+    .products_text_card_box {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 0 95px 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 0.7px;
+        color: #A0A0A0;
+    }
+}
+
+.fiveth {
+    background: url(../image/bg_fiveth.png) no-repeat center;
+    background-size: cover;
+
+    .office {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        color: #FFFFFF;
+        align-items: center;
+        padding: 250px 0;
+    }
+
+    .office_title_box {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .office_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 70px;
+    }
+
+    .office_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
+    }
+
+    .office_link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+}
+
+.way {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+    color: #000000;
+    padding-top: 116px;
+
+    .way_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .way_text {
+        max-width: 777px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+}
+
+.meaningful {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+    color: #000000;
+    padding-top: 38px;
+
+    .meaningful_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .meaningful_text {
+        max-width: 790px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+}
+
+.meaningful_gallery {
+    display: grid;
+    padding-top: 80px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+}
+
+.meaningful_bottom_text {
+    padding-top: 124px;
+    gap: 44px;
+
+    .meaningful_text_bottom {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 121px;
+    }
+}
+
+.footer {
+    background-color: #9AA8B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    padding: 120px 0;
+    color: #FFFFFF;
+
+    .footer_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 58px;
+    }
+
+    .footer_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.8px;
+    }
+}
